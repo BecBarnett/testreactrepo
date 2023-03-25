@@ -1,10 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import * as Popover from '@radix-ui/react-popover';
 
 function App() {
-
   return (
     <div className="App">
       <header className="App-header">
@@ -18,15 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        <Popover.Root>
-      <Popover.Trigger>Did this work?</Popover.Trigger>
-      <Popover.Portal>
-        <Popover.Content>
-          Awesome, you can import stuff.
-          <Popover.Arrow />
-        </Popover.Content>
-      </Popover.Portal>
-    </Popover.Root>
+          Learn React
         </a>
       </header>
     </div>
